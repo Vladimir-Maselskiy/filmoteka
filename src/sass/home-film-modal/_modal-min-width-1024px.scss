@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px) {
+  .modal__box {
+    width: 814px;
+    padding-top: 40px;
+  }
+  .modal {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .modal__thumb-for-image {
+    width: 375px;
+    height: 478px;
+  }
+
+  .modal__thumb-for-description {
+    width: 391px;
+  }
+
+  .modal__original-title {
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 1.17;
+  }
+
+  .modal__button-block {
+    justify-content: start;
+    padding-left: 18px;
+  }
+  .modal__button-tmpl {
+    width: 136px;
+  }
+  .modal__button-tmpl.add-to-queue-button {
+    margin-left: 15px;
+  }
+}

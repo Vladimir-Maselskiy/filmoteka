@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  .modal__box {
+    max-height: 95vh;
+    width: 704px;
+    transform: translate(-50%, -50%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .modal {
+    display: flex;
+    width: 100%;
+
+    padding: 0px 72px 0px 36px;
+    justify-content: space-between;
+  }
+
+  .modal__thumb-for-image {
+    width: 264px;
+    height: 373.55px;
+  }
+
+  .modal__thumb-for-description {
+    width: 264px;
+    padding-bottom: 40px;
+  }
+
+  .modal__original-title {
+    margin-top: 0;
+  }
+
+  .modal__button-tmpl {
+    width: 125px;
+  }
+
+  // .modal__button-block {
+  //   padding-bottom: 40px;
+  // }
+}

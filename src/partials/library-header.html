@@ -1,0 +1,54 @@
+<!-- Повинна бути така ссилка на home
+<!-- <a href="./index.html">HOME</a> -->
+<header class="library-header">
+    <div class="container">
+        <div class="library-header__container">
+            <a href="./index.html" class="library-header__logo-mob link logo-span--color-dark"><svg
+                    class="library-header__logo-mob-icon" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-film"></use>
+
+                </svg></a>
+            <a href="./index.html" class="library-header__logo link logo-span--color-dark"><svg
+                    class="library-header__logo-icon" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-film"></use>
+
+                </svg>Filmoteka</a>
+            <nav class="library-header__navigation">
+                <ul class="library-header-list list">
+                    <li class="library-header-list__item">
+                        <a href="./index.html" class="library-header-list__link link ">Home</a>
+                    </li>
+                    <li class="library-header-list__item">
+                        <a href="./library.html" class="library-header-list__link link current">My library</a>
+                    </li>
+                    <li class="library-header-list__item hidden-link" id="user-logout">
+                        <a href="#" class="library-header-list__link link">Log out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="library-header_buttons">
+            <ul class="library-header-buttons-list">
+                <li class="library-header-buttons-list__item">
+                    <button class="library-header_buttons_watch" type="button" id="watched" data-key="watched-films"
+                        data-current="currentPage">Watched</button>
+                </li>
+                <li class="library-header-buttons-list__item">
+                    <button class="library-header_buttons_watch" type="button" id="queue"
+                        data-key="queue-films">Queue</button>
+
+                </li>
+            </ul>
+            </nav>
+        </div>
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <span class="slide round"></span>
+            </label>
+        </div>
+
+
+    </div>
+</header>

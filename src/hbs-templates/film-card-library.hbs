@@ -1,0 +1,23 @@
+<li class="gallery-list__item">
+    <div data-filmId="{{filmId}}" class="gallery-list__card">
+        <button type="button" data-filmid="{{filmId}}" class="remove-film-btn">
+            <svg class="remove-film-svg" width="26" height="30">
+                <use href="{{svg}}#icon-clear"></use>
+            </svg>
+        </button>
+
+        <div class="gallery-list__poster">
+            <img class="gallery-list__img" src="{{urlImg}}" alt="{{title}}" loading="lazy" />
+        </div>
+
+        <div class="gallery-list__description">
+            <h2 class="gallery-list__titel">{{title}}</h2>
+            <div class="gallery-list__info">
+
+                <p class="gallery-list__genre">{{ganres}} | <span class="gallery-list__Year">{{relisYer}}</span> </p>
+                <span class="gallery-list__rating">{{ratting}}</span>
+
+            </div>
+        </div>
+    </div>
+</li>

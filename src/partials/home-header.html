@@ -1,0 +1,55 @@
+<!--Повинна бути така ссилка на бібліотеку -->
+<!-- <a href="./library.html">library</a> -->
+<header class="header">
+    <div class="container">
+        <div class="header__container">
+            <a href="./index.html" class="header__logo-mob link logo-span--color-dark"><svg
+                    class="header__logo-mob-icon" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-film"></use>
+
+                </svg></a>
+            <a href="./index.html" class="header__logo link logo-span--color-dark"><svg class="header__logo-icon"
+                    width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-film"></use>
+
+                </svg>Filmoteka</a>
+            <nav class="header__navigation">
+                <ul class="header-list list">
+                    <li class="header-list__item">
+                        <a href="./index.html" class="header-list__link link current">Home</a>
+                    </li>
+                    <li class="header-list__item" id="user-login">
+                        <a href="#" class="header-list__link link" data-modal-open>Log in</a>
+                    </li>
+                    <li class="header-list__item hidden-link" id="user-library">
+                        <a href="./library.html" class="header-list__link link">My library</a>
+                    </li>
+                    <li class="header-list__item hidden-link" id="user-logout">
+                        <a href="#" class="header-list__link link">Log out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <form class="home-header_search">
+            <input name="searchQuery" type="text" class="home-header_search_input" placeholder="Пошук фільмів">
+            <button type="submit" class="home-header_search_button">
+                <svg class="home-header_search-icon" width="12px" height="12px">
+                    <use href="./images/icons.svg#icon-search"></use>
+
+                </svg>
+            </button>
+
+        </form>
+        <div class="home-header_line">
+            <p class="home-header_line_message"></p>
+        </div>
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <span class="slide round"></span>
+            </label>
+        </div>
+    </div>
+</header>
